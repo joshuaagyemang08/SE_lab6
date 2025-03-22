@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who I Am</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        @media (min-width: 768px) {
+            .profile-container {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+        }
+        
+        .profile-image {
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #3498db;
+            width: 250px;
+            height: 250px;
+            flex-shrink: 0;
+        }
+        
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .profile-content {
+            flex-grow: 1;
+        }
+        
+        .about-section {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-title {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Who I Am</h1>
+    </header>
+    
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="images/20230108_091109.jpg" alt="My Profile Picture">
+        </div>
+        
+        <div class="profile-content">
+            <div class="about-section">
+                <h2 class="section-title">About Me</h2>
+                <p>Hello! My name is Joshua Agyemang and this is my personal page. I'm a student with a passion for computer science related work.</p>
+                
+                <p>I have experience in web development and database management, and I'm always looking to learn more about technolgy and how it is evolving.</p>
+                
+                <p>When I'm not studing, you can find me listening to music in my room. I believe that in this world, nobody needs an apology they asked for so if you need to apologize, do it before the person you have committed the mistake to will ask for it.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
